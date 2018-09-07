@@ -1,0 +1,142 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: rgba(183,183,183,1) no-repeat center fixed;
+	}
+h1 {
+	color: #333;
+	font-weight: bold;
+	text-align: center;	
+	font-family: Calibri, Tahoma, Arial;
+  	font-size: 60px;
+	margin: 50px;
+}
+a {
+	text-decoration: none;
+	color: #333;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+}
+#donate {
+	width: 150px;
+	height: 60px;
+	background: #FFF;
+	margin: 0 auto;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+	-o-box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+	overflow: hidden;
+}
+#donate a {
+	height: 20px;
+	line-height: 20px;
+	padding-top: 1px;
+	padding: 20px;
+	display: block;
+}
+#donate a:hover {
+	background: #000;
+	color: #FFF;
+	text-align: center;
+}
+#list {
+	margin: 70px auto;
+ }
+#list ul {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  text-align: center;
+ }
+#list ul li {
+  list-style: none;
+  display: inline; 
+}
+#list ul li a {
+	margin-left: 10px;
+	padding: 0px 20px;
+	line-height: 35px;
+}
+#list ul li a:hover {
+	color: #FFF;
+}
+#blue  {
+	background-color: rgba(94,160,220,1);
+	margin: 0 auto;
+	height: 1000px;
+}
+.multiple-item {
+	margin: 0 auto;
+	height: 220px;
+	width: 800px;
+	overflow-x: none;
+	overflow-y: hidden;
+	display: flex;
+	flex-flow: wrap;
+	flex-direction:column;
+
+}
+.multiple-item ul {
+	margin: 0 auto;
+	padding: 0;
+}
+.multiple-item ul li {
+	position: relative;
+}
+.slides {
+    display: inline-block;
+    margin: 2314;
+}
+.item {
+	width:200px;
+	height:170px;
+	background: white;
+	float:left;	
+	margin: 20px auto;
+	display: table;
+	margin-right: 18px;
+	margin-left:  18px;
+}
+.item p {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 60px;
+	font-family: arial;
+	font-weight: bold;
+	color: rgba(94,160,220,1); 
+}
+#code {
+	width: 653px;
+	height: 130px;
+	color: white;
+	margin: 0px auto;
+	border: solid 10px white;
+	background-color: #000;
+}
+.prev, .next {           
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}
+.next {			
+    position: right;               
+}
+.prev {
+	
+    position: left;
+}
+.next svg, .prev svg {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background: #FFF; 
+}
