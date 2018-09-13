@@ -1,0 +1,41 @@
+body {
+	margin:0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+}
+div {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: arial;
+	font-weight: bold;
+	border-radius: 3px;
+	text-align: right;
+}
+#main {
+	width: 99.8vh;
+	height: 99.8vh;
+	background: white no-repeat center fixed;
+	border: 0.2vh solid black;
+	margin: auto;
+}
+#R {
+	background-color: red;
+	width: 50%;
+	height: 50%;
+}
+#G {
+	background-color: green;
+	width: 50%;
+	height: 50%;
+	float: left;
+	margin: -25vh 25vh 25vh 25vh; /*быдрокодинг*/
+}
+#B {
+	background-color: blue;
+	width: 50%;
+	height: 50%;
+	margin-left: 50%;
+	padding-top:0;
+}
