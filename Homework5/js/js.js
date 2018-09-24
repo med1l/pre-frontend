@@ -9,4 +9,6 @@ function style () {
 	document.getElementById('content').style.borderRadius = '50%';
 	document.getElementsByTagName('a')[1].style.fontSize = '40px';
 	document.getElementsByTagName('a')[1].style.color = 'black';
+	document.getElementsByTagName('a')[0].style.fontSize = '15px';
+	document.getElementsByTagName('a')[0].style.color = 'black';
 }
