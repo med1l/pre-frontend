@@ -1,0 +1,111 @@
+body {
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+}
+div	{
+	font-family: Arial, Tahoma, Calibri;
+	font: bold;
+	overflow:hidden;
+}
+#header {
+	padding: 0;
+	width: 90%;
+	height: 10vh;
+	border-radius: 0 0 10px 10px;
+	background: rgb(145, 121, 255);
+	background: -webkit-linear-gradient(180deg, rgb(145, 121, 255) 0%, rgb(80, 255, 255) 100%);
+	background: -o-linear-gradient(180deg, rgb(145, 121, 255) 0%, rgb(80, 255, 255) 100%);
+	background: -ms-linear-gradient(180deg, rgb(145, 121, 255) 0%, rgb(80, 255, 255) 100%);
+	background: linear-gradient(180deg, rgb(145, 121, 255) 0%, rgb(80, 255, 255) 100%);
+}
+#text {
+	margin:3vh auto;
+	padding:0;
+	width: 90%;
+	height: 10vh;
+	text-decoration: underline;
+}
+#header:hover {
+	background: rgb(179,224,237); 
+	background: -moz-linear-gradient(top, rgba(179,224,237,1) 0%, rgba(41,201,229,1) 50%, rgba(188,228,238,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(179,224,237,1) 0%,rgba(41,201,229,1) 50%,rgba(188,228,238,1) 100%);
+	background: linear-gradient(to bottom, rgba(179,224,237,1) 0%,rgba(41,201,229,1) 50%,rgba(188,228,238,1) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3e0ed', endColorstr='#bce4ee',GradientType=0 );
+}
+#content {
+	padding: 0;
+	width: 87%;
+	height: auto;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 10px;
+}
+#content h1 {
+	font-size: 20px;
+	margin: 10px 0px 0px 30px;
+}
+#content p {
+	margin-top: 0;
+	font-size: 12px;
+	text-decoration: none;
+}
+#content ul {
+	list-style: none;
+}
+#content ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 0;
+	height: 40px;
+	width: 90px;
+	line-height: 40px;
+	margin: 50px 0px 50px -20px;
+	display: block;
+	text-align: center;
+	border-radius: 7%;
+	background-color: rgba(255,255,255,0.4);
+	font-size: 20px;
+	font:bold;
+	font-family: Calibri;
+	box-shadow: 1px 1px 0px rgba(255,255,255,0.5);
+}
+#content ul li a:hover {
+	background-color: rgba(0,0,0,1);
+	color: white;
+}
+#footer {
+  	padding-top: 10px;
+  	height: 7%;
+  	width: 90%;
+  	text-align: center;
+  	border-radius: 5px 5px 0 0;
+  	background-color: rgba(146, 162, 254, 1);
+}
+@media (max-width: 320px) {
+	#header {
+		background: green;
+	}
+	#content {
+		width: 90%;
+	}
+}
+ /*FleX CSS свойства*/
+
+body {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+#header {
+	flex: inherit 0 auto;
+}
+#content {
+	margin-top: 12vh;
+	position: absolute;
+}
+#footer {
+	flex: 0 0 auto;
+}
