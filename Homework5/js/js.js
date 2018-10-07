@@ -12,3 +12,14 @@ function style () {
 	document.getElementsByTagName('a')[0].style.fontSize = '15px';
 	document.getElementsByTagName('a')[0].style.color = 'black';
 }
+function clearBox()
+{
+    document.getElementsByTagName("div")[0].innerHTML = '';
+    document.getElementsByTagName("div")[0].innerHTML += '<div id="box1"> \
+                                							<div id="box2"> \
+                                    							<div id="box3"> \
+                                    							 <a href="homework5.html">BACk</a>\
+                                    							</div> \
+                                							</div> \
+                            							</div>';
+}
