@@ -21,7 +21,7 @@ video {
     transform: translateX(-50%) translateY(-50%);
    	transition: 1s opacity;
 }
-a {
+#back3 a {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -45,7 +45,7 @@ a {
 	box-shadow: 0px 0px 15px 9px rgba(0,0,0,1);
 	border-radius: 7px;
 }
-a svg, a svg rect {
+#back3 a svg, #back3 a svg rect {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -53,7 +53,7 @@ a svg, a svg rect {
 	height: 100%;
 	fill: transparent;
 }
-a svg rect {
+#back3 a svg rect {
 	stroke: #00e2ff;
 	stroke-width:5px;
 	transition: 2s;
@@ -62,7 +62,7 @@ a svg rect {
 	stroke-linecap:round;
 	stroke-linejoin:round;
 }
-a:hover svg rect {
+#back3 a:hover svg rect {
 	stroke: #ff0;
 	stroke-dasharray: 200 60;
 	stroke-dashoffset: 0;
@@ -71,7 +71,7 @@ a:hover svg rect {
 	stroke-linejoin:round;
 }
 #back3 {
-	position: absolute;
+	position: relative;
 	width: 220px;
 	height: 80px;
 	top: 45%;
@@ -80,4 +80,52 @@ a:hover svg rect {
 	padding: 0;
 	overflow: hidden;
 	border-radius: 15px;
+	margin-top: 20%;
+}
+.navbar {
+	background-color: rgba(255,255,255,0.3);
+}
+.container {
+	background-color: rgba(255,255,255,0.85);
+	border-radius: 5px;
+}
+.navbar-brand, .nav-item {
+	margin-left: 10px;
+	font-family: ESE;
+}
+.image {
+	overflow:hidden;
+	width: 380px;
+	height: 250px;
+	margin-left: 16%;
+	margin-top: 20px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 15px 9px rgba(0,0,0,1);
+}
+.image:hover {
+	border-radius: 15px;
+	box-shadow: 0px 0px 15px 9px rgba(0,0,0,1); 
+}
+.image img {
+	width: 380px;
+	height: 250px;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+}
+.image img:hover {
+	width: 418px;
+	height: 275px;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+}
+@media (max-width: 376px) and (max-height: 668px) {
+	.image,#grid,#back3 {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
 }
