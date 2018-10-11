@@ -5,6 +5,7 @@
 	<link href="styles/homework51.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<script src="js/js.js"></script>
 </head>
 <body>
 	<video playsinline autoplay muted loop>
@@ -12,7 +13,7 @@
 	</video>
 	<nav class="navbar navbar-expand-lg navbar-light sticky-top">
 		<div class="container">
-	  <a class="navbar-brand" href="#">NAVBAR</a>
+	  <a class="navbar-brand" href="#">NAVBAR Bootstrap 4</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -30,6 +31,9 @@
 	      <li class="nav-item">
 	        <a class="nav-link disabled" href="homework5.html">BACK</a>
 	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">BURGER here-></a>
+	      </li>
 	    </ul>
 	  </div>
 	  </div>
@@ -37,11 +41,41 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<div id="grid">
-		<div id="back3">
+	<div id="back3">
 			<a href="homework5.html"><svg><rect></rect></svg>BACK</a>
-		</div>
-		<div class="image"><a href="#"><img  src="images/img.jpg"></a></div>
+	</div>
+	<div class="image">
+		<a href="#"><img  src="images/img.jpg"></a>
+	</div>
+	<div id="sidebar">
+		<ul>
+			<li>Homework6</li>
+			<li>Modno</li>
+			<li>Stilno</li>
+			<li>Molodeghno</li>
+			<li>Back</li>
+		</ul>
+	</div>
+	<div id="toggle-btn" onclick="toggleSidebar(this)">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<div class="box">
+		<h2>Login</h2>
+		<form onsubmit="return checkForm(this);">
+			<div class="inputBox">
+				<input type="text" name="Username" required="" disabled id="user">
+				<label>Username</label>
+			</div>
+			<div class="inputBox">
+				<input type="password" name="Password" required="">
+				<label>Password</label>
+			</div>
+			<input type="submit" name="" value="Submit">
+		</form>
+
+		
 	</div>
 </body>
-</html>
+</html> 
