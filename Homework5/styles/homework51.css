@@ -33,7 +33,6 @@ video {
 	height: 60px;
 	line-height: 60px;
 	text-align: center;
-	font-family: ESE;
 	text-transform: uppercase;
 	font-size: 24px;
 	letter-spacing: 10px;
@@ -94,7 +93,6 @@ video {
 }
 .navbar-brand, .nav-item {
 	margin-left: 10px;
-	font-family: ESE;
 }
 .image {
 	position: absolute;
@@ -257,9 +255,6 @@ video {
 	padding: 5px 10px;
 	cursor: pointer;
 }
-/*.box .inputBox input:valid ~ label {
-	border-bottom: 1px solid red;
-}*/
 @media only screen and (max-width: 600px) {
 	.image,#back3 {
 		margin: 0;
