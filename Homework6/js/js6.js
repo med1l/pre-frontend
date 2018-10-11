@@ -27,3 +27,16 @@ function toggleSidebar(ref) {
 	ref.classList.toggle('active');
 	document.getElementById('sidebar').classList.toggle('active');
 }
+function validateForm() {
+    var x = document.forms["forma"]["User"].value;
+    var User = document.querySelector("input[name=User]");
+    var Pass = document.querySelector("input[name=Pass]");
+    if (x == "") {
+    	User.setAttribute('disabled', true);
+    	Pass.setAttribute('disabled', true);
+        return false;
+    }
+} 
+
+    	// alert("FAIL");
+    	// document.getElementById('userIn').setAttribute('disabled', 'disabled');

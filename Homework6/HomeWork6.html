@@ -63,19 +63,17 @@
 	</div>
 	<div class="box">
 		<h2>Login</h2>
-		<form onsubmit="return checkForm(this);">
+		<form name="forma" onsubmit="return validateForm()">
 			<div class="inputBox">
-				<input type="text" name="Username" required="" id="user"> <!-- disabled -->
+				<input type="text" name="User" class="userIn"> <!-- disabled -->
 				<label>Username</label>
 			</div>
 			<div class="inputBox">
-				<input type="password" name="Password" required="">
+				<input type="password" name="Pass" class="userIn">
 				<label>Password</label>
 			</div>
 			<input type="submit" name="" value="Submit">
 		</form>
-
-		
 	</div>
 </body>
 </html> 
