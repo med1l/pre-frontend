@@ -1,0 +1,155 @@
+#bord1 {
+	border-radius: 3px;
+
+}
+span .badge {
+	padding: 5px;
+}
+.waves-effect {
+	border-radius: 5px;
+}
+body {
+ 	margin: 0;
+ 	padding: 0;
+ 	background-color: #EEE;
+}
+.site-header-logo img {
+	display: block;
+	width: 100%;
+	max-width: 130px;
+	margin-right: 60px;
+}
+#mainContent {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+#slider {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+#mainContent #slider {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 500%;
+	height: 85%;
+	animation: animate 20s linear infinite;
+
+}
+#mainContent #slider .slide {
+	position: relative;
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+#mainContent #slider .slide .caption {
+	position: absolute;
+	bottom: 100px;
+	left: 10%;
+	/*right: 60px;*/
+	padding: 10px;
+	background: rgba(0,0,0,0.2);
+	box-sizing: border-box;
+}
+#mainContent #slider .slide .caption h2 {
+	margin: 0 0 20px;
+	padding: 0;
+	color: #FFF;
+	font-size: 45px;
+}
+#mainContent #slider .slide .caption p {
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	font-size: 20px;
+	margin-top: -10px;
+}
+#mainContent #slider .slide.slide1 {
+	background: url(../img/1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#mainContent #slider .slide.slide2 {
+	background: url(../img/2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#mainContent #slider .slide.slide3 {
+	background: url(../img/3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#mainContent #slider .slide.slide4 {
+	background: url(../img/6.jpg);
+	background-size: cover;
+	background-position: center;
+}
+@keyframes animate 
+{
+	0%
+	{
+		left: 0;
+	}
+	20%
+	{
+		left: 0;
+	}
+	25%
+	{
+		left: -100%;
+	}
+	45%
+	{
+		left: -100%;
+	}
+	50%
+	{
+		left: -200%;
+	}
+	70%
+	{
+		left: -200%;
+	}
+	75%
+	{
+		left: -300%;
+	}
+	80%
+	{
+		left: -300%;
+	}
+	85%
+	{
+		left: -300%;
+	}
+	95%
+	{
+		left: -300%;
+	}
+	100%
+	{
+		left: -400%;
+	}
+}
+#main-1 {
+	position: absolute;
+	top: 77%;
+	left: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	width: 90%;
+}
+.page-footer-1 {
+	position: relative;
+	
+}
+#main-2 {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	width: 90%;
+}
